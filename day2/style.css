@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  overflow: hidden;
+  margin: 0;
+}
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  text-align: center;
+}
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  cursor: grab;
+  padding-top: 23px;
+  text-align: center;
+}
+item:active {
+  cursor: grab;
+}
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+.start {
+  background: linear-gradient(45deg, #ff85e4, #229efd 160%);
+}
+.progress {
+  background: linear-gradient(90deg, #209cff 10%, #68e0cf 100%);
+}
+.done {
+  background: linear-gradient(90deg, #84fab0, #8fd3f4 100%);
+}
+.hold {
+  border: 5px solid #eee;
+}
+.hide {
+  display: none;
+}
+.hoverd {
+  border-top: 2px solid blueviolet;
+}
+/*
+.container {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+.knopfs button {
+  border: none;
+  border-radius: 10px;
+  margin-top: 180px;
+  padding: 50px 80px;
+  margin-right: 40px;
+  background: linear-gradient(
+    rgb(88, 221, 221),
+    rgb(87, 209, 148),
+    rgb(105, 233, 154)
+  );
+  font-size: 30px;
+  color: beige;
+}
+.placeholder1 {
+  border: none;
+  border-radius: 10px;
+  margin-top: 180px;
+  padding: 50px 80px;
+
+  background: linear-gradient(
+    rgb(88, 221, 221),
+    rgb(87, 209, 148),
+    rgb(105, 233, 154)
+  );
+  width: 70px;
+}
+*/ ;
